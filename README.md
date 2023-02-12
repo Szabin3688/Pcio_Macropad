@@ -53,4 +53,4 @@ For ducumentation on how to reprogram the button actions in hungarian check docu
 - Implementing oled support in the firmware
 - Making a 3d model for the housing
 
-[![Picture of the board](https://github.com/Szabin3688/Pcio_Macropad/blob/main/PCB%20Version%201.png?raw=true)]
+![Picture of the board](https://github.com/Szabin3688/Pcio_Macropad/blob/main/PCB%20Version%201.png?raw=true)
