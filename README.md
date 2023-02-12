@@ -14,7 +14,7 @@ Component list:
 
 ### Installing
 
-Steps from fresh Pico flash:
+Steps from fresh Pico:
 1) Download the Cirtuitphyton files from here:
 	UF2 file: https://downloads.circuitpython.org/bin/raspberry_pi_pico/nl/adafruit-circuitpython-raspberry_pi_pico-nl-7.3.0.uf2
 	.HID files: https://github.com/adafruit/Adafruit_CircuitPython_HID/archive/refs/heads/main/adafruit_hid.zip
