@@ -54,4 +54,4 @@ For ducumentation on how to reprogram the button actions in hungarian check docu
 - Making a 3d model for the housing
 
 ## The PCB itself
-![Picture of the board](https://github.com/Szabin3688/Pcio_Macropad/blob/main/PCB%20Version%201.png?raw=true)
+![Picture of the board](https://github.com/Szabin3688/Pcio_Macropad/blob/main/PCB_Version_1.png?raw=true)
