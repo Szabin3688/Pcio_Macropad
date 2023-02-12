@@ -1,0 +1,21 @@
+Teljesen új picora való flash folyamata:
+1) Töltsd le a Cirtuitphyton fájlokat innen:
+	.UF2 fájl: https://downloads.circuitpython.org/bin/raspberry_pi_pico/nl/adafruit-circuitpython-raspberry_pi_pico-nl-7.3.0.uf2
+	.HID fájlok: https://github.com/adafruit/Adafruit_CircuitPython_HID/archive/refs/heads/main/adafruit_hid.zip
+2) Csomagold ki az adafruit_hid.zip fájlt
+3) Helyezd be a pico ezközöd a BOOTSEL gomb lenyomása közben
+4) Másold át a letöltött .UF2 fájlt az RPI_RPI2 meghajtóra
+5) Nyitsd meg a kicsomagolt mappát, és másold át az adafruit_hid mappát a CIRCUITPY meghajtóra
+6) Húzd ki, és helyezd be újra a pico ezközt
+7) Töltsd le a  Main.py fájlt a GitHub oldalamról innen:
+	Main.py fájl: example.com/Main.py/RAW
+8) Másold át a Main.py fájlt a CIRCUITPY meghajtóra
+9) Töröld a meghajtóról a code.py fájlt
+10) Húzd ki, és helyezd be újra a pico ezközt
+-- Az ezköznek innentől működnie kell, ha nem, akkor keress fel nyugodtan az elérhetőségeimen :) --
+-- Az ezköz bootolása a zöld led felvillanásakor sikerült --
+
+felhasznált források a projekthez:
+https://www.instructables.com/The-Basic-Pico-Keyboard/
+https://circuitpython.org
+https://github.com/adafruit/Adafruit_CircuitPython_HID/archive/refs/heads/main/

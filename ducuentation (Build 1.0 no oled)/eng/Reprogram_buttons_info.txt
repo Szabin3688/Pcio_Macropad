@@ -1,0 +1,257 @@
+To reprogram buttons simply replace the KEYCODE value
+example:
+	if button_1.value:
+        kbd.send(Keycode.A,)
+to
+	if button_1.value:
+        kbd.send(Keycode.B,)
+
+if you want combinations do it like this:
+	if button_1.value:
+        kbd.send(Keycode.A,)
+to
+	if button_1.value:
+	  kbd.press(Keycode.CAPS_LOCK)
+	  kbd.send(Keycode.A)
+        time.sleep(.09)
+        kbd.release(Keycode.CAPS_LOCK)
+-- The uploading is complete if the pico's led is on --
+
+Here is all of the button value names:
+    A
+    B 
+    C
+    D
+    E
+    F
+    G
+    H
+    I
+    J
+    K
+    L
+    M
+    N
+    O
+    P
+    Q
+    R
+    S
+    T
+    U
+    V
+    W
+    X
+    Y
+    Z
+
+    ONE = 
+    """``1`` and ``!``"""
+    TWO =
+    """``2`` and ``@``"""
+    THREE =
+    """``3`` and ``#``"""
+    FOUR =
+    """``4`` and ``$``"""
+    FIVE = 
+    """``5`` and ``%``"""
+    SIX =
+    """``6`` and ``^``"""
+    SEVEN =
+    """``7`` and ``&``"""
+    EIGHT =
+    """``8`` and ``*``"""
+    NINE =
+    """``9`` and ``(``"""
+    ZERO =
+    """``0`` and ``)``"""
+    RETURN = ENTER
+    """Alias for ``ENTER``"""
+    ESCAPE 
+    BACKSPACE 
+    TAB
+    """Tab and Backtab"""
+    SPACEBAR
+    """Spacebar"""
+    SPACE
+    """Alias for SPACEBAR"""
+    MINUS
+    """``-` and ``_``"""
+    EQUALS
+    """``=` and ``+``"""
+    LEFT_BRACKET
+    """``[`` and ``{``"""
+    RIGHT_BRACKET
+    """``]`` and ``}``"""
+    BACKSLASH
+    r"""``\`` and ``|``"""
+    POUND
+    """``#`` and ``~`` (Non-US keyboard)"""
+    SEMICOLON
+    """``;`` and ``:``"""
+    QUOTE
+    """``'`` and ``"``"""
+    GRAVE_ACCENT
+    r""":literal:`\`` and ``~``"""
+    COMMA
+    """``,`` and ``<``"""
+    PERIOD
+    """``.`` and ``>``"""
+    FORWARD_SLASH
+    """``/`` and ``?``"""
+
+    CAPS_LOCK
+    """Caps Lock"""
+
+    F1
+    """Function key F1"""
+    F2
+    """Function key F2"""
+    F3
+    """Function key F3"""
+    F4
+    """Function key F4"""
+    F5
+    """Function key F5"""
+    F6
+    """Function key F6"""
+    F7
+    """Function key F7"""
+    F8
+    """Function key F8"""
+    F9
+    """Function key F9"""
+    F10
+    """Function key F10"""
+    F11
+    """Function key F11"""
+    F12
+    """Function key F12"""
+
+    PRINT_SCREEN
+    """Print Screen (SysRq)"""
+    SCROLL_LOCK
+    """Scroll Lock"""
+    PAUSE
+    """Pause (Break)"""
+
+    INSERT
+    """Insert"""
+    HOME
+    """Home (often moves to beginning of line)"""
+    PAGE_UP
+    """Go back one page"""
+    DELETE
+    """Delete forward"""
+    END
+    """End (often moves to end of line)"""
+    PAGE_DOWN
+    """Go forward one page"""
+
+    RIGHT_ARROW
+    """Move the cursor right"""
+    LEFT_ARROW
+    """Move the cursor left"""
+    DOWN_ARROW
+    """Move the cursor down"""
+    UP_ARROW
+    """Move the cursor up"""
+
+    KEYPAD_NUMLOCK
+    """Num Lock (Clear on Mac)"""
+    KEYPAD_FORWARD_SLASH
+    """Keypad ``/``"""
+    KEYPAD_ASTERISK
+    """Keypad ``*``"""
+    KEYPAD_MINUS
+    """Keyapd ``-``"""
+    KEYPAD_PLUS
+    """Keypad ``+``"""
+    KEYPAD_ENTER
+    """Keypad Enter"""
+    KEYPAD_ONE
+    """Keypad ``1`` and End"""
+    KEYPAD_TWO
+    """Keypad ``2`` and Down Arrow"""
+    KEYPAD_THREE
+    """Keypad ``3`` and PgDn"""
+    KEYPAD_FOUR
+    """Keypad ``4`` and Left Arrow"""
+    KEYPAD_FIVE
+    """Keypad ``5``"""
+    KEYPAD_SIX
+    """Keypad ``6`` and Right Arrow"""
+    KEYPAD_SEVEN
+    """Keypad ``7`` and Home"""
+    KEYPAD_EIGHT
+    """Keypad ``8`` and Up Arrow"""
+    KEYPAD_NINE
+    """Keypad ``9`` and PgUp"""
+    KEYPAD_ZERO
+    """Keypad ``0`` and Ins"""
+    KEYPAD_PERIOD
+    """Keypad ``.`` and Del"""
+    KEYPAD_BACKSLASH
+    """Keypad ``\\`` and ``|`` (Non-US)"""
+
+    APPLICATION
+    """Application: also known as the Menu key (Windows)"""
+    POWER
+    """Power (Mac)"""
+    KEYPAD_EQUALS 
+    """Keypad ``=`` (Mac)"""
+    F13
+    """Function key F13 (Mac)"""
+    F14
+    """Function key F14 (Mac)"""
+    F15
+    """Function key F15 (Mac)"""
+    F16
+    """Function key F16 (Mac)"""
+    F17
+    """Function key F17 (Mac)"""
+    F18
+    """Function key F18 (Mac)"""
+    F19
+    """Function key F19 (Mac)"""
+
+    F20 
+    """Function key F20"""
+    F21
+    """Function key F21"""
+    F22 
+    """Function key F22"""
+    F23
+    """Function key F23"""
+    F24
+    """Function key F24"""
+
+    LEFT_CONTROL
+    """Control modifier left of the spacebar"""
+    CONTROL
+    """Alias for LEFT_CONTROL"""
+    LEFT_SHIFT
+    """Shift modifier left of the spacebar"""
+    SHIFT
+    """Alias for LEFT_SHIFT"""
+    LEFT_ALT
+    """Alt modifier left of the spacebar"""
+    ALT 
+    """Alias for LEFT_ALT; Alt is also known as Option (Mac)"""
+    OPTION
+    """Labeled as Option on some Mac keyboards"""
+    LEFT_GUI
+    """GUI modifier left of the spacebar"""
+    GUI
+    """Alias for LEFT_GUI; GUI is also known as the Windows key, Command (Mac), or Meta"""
+    WINDOWS
+    """Labeled with a Windows logo on Windows keyboards"""
+    COMMAND
+    """Labeled as Command on Mac keyboards, with a clover glyph"""
+    RIGHT_CONTROL
+    """Control modifier right of the spacebar"""
+    RIGHT_SHIFT
+    """Shift modifier right of the spacebar"""
+    RIGHT_ALT
+    """Alt modifier right of the spacebar"""
+    RIGHT_GUI
