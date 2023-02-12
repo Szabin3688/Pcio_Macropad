@@ -40,7 +40,7 @@ Steps from fresh Pico:
 ## Authors
 
   - **Szabin3688** - 
-    (https://github.com/Szabin3688 / linktr.ee/b.szabin)
+    (https://github.com/Szabin3688 / www.linktr.ee/b.szabin)
 
 ## Other info 
 
