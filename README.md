@@ -24,7 +24,7 @@ Steps from fresh Pico:
 5) Open the unzipped folder, and copy the adafruit_hid folder to the CIRCUITPY drive
 6) Replug the pico normaly
 7) Download the Main.py file from my github from here:
-	Main.py file: ControllCenter/Firmware/Main.py
+	Main.py file: Pico_Macropad/Firmware/Main.py
 8) Copy the Main.py file to the CIRCUITPY drive
 9) Remove the code.py file from the pico
 10) Replug the pico
